@@ -1,3 +1,4 @@
+pip install wandb==0.12.0
 #!/bin/bash
 #########################################################
 # Uncomment and change the variables below to your need:#
