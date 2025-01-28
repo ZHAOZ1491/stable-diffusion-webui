@@ -2,12 +2,20 @@ GitPython
 Pillow
 accelerate
 
+wandb==0.12.0
+fastapi==0.65.2
+pydantic==1.8.2
+starlette==0.14.2
+uvicorn==0.14.0
+
+
+
 blendmodes
 clean-fid
 diskcache
 einops
 facexlib
-fastapi>=0.90.1
+
 gradio==3.41.2
 inflection
 jsonmerge
