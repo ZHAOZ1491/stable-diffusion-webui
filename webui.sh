@@ -261,7 +261,8 @@ while [[ "$KEEP_GOING" -eq "1" ]]; do
         printf "Launching launch.py..."
         printf "\n%s\n" "${delimiter}"
         prepare_tcmalloc
-        "${python_cmd}" -u "${LAUNCH_SCRIPT}" "$@"
+        "${python_cmd}" -u "${LAUNCH_SCRIPT}"  --api --listen --port 7860 --share
+ "$@"
     fi
 
     if [[ ! -f tmp/restart ]]; then
