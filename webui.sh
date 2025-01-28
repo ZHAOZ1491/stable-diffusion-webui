@@ -1,3 +1,4 @@
+pip install wandb==0.12.0
 #!/usr/bin/env bash
 #################################################
 # Please do not make any changes to this file,  #
