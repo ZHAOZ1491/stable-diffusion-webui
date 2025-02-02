@@ -1,4 +1,3 @@
-pip install wandb==0.12.0
 #!/usr/bin/env bash
 #################################################
 # Please do not make any changes to this file,  #
@@ -7,7 +6,7 @@ pip install wandb==0.12.0
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
-
+pip install wandb==0.12.0
 # If run from macOS, load defaults from webui-macos-env.sh
 if [[ "$OSTYPE" == "darwin"* ]]; then
     if [[ -f "$SCRIPT_DIR"/webui-macos-env.sh ]]
