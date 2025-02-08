@@ -1,0 +1,1 @@
+python -u launch.py --api --listen --port 7860 --share
